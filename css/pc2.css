@@ -14,16 +14,16 @@
 
 
 .section-1 {
-  height: 67.5rem;
+  height: 56.25vw;
   position: relative;
   overflow: hidden;
 }
 .cat-img {
-  width: 12.0625rem;
-  height: 6.125rem;
+  width: 10.05vw;
+  height: 5.1vw;
   position: absolute;
   left: 68.75vw;
-top: 5.9375vw;
+  top: 11%;
   z-index: -9999;
 }
 
@@ -32,8 +32,8 @@ top: 5.9375vw;
   background-color: #fff;
   z-index: 2;
   margin: 10.96vw 10.5000vw;
-  padding: 73px 107px;
-  border-radius: 1.9375rem;
+  padding: 3.8vw 5.6vw;
+  border-radius: 1vw;
   border: 1px solid #000;
   display: flex;
   flex-direction: column;
@@ -48,12 +48,12 @@ top: 5.9375vw;
   color: #000000;
   text-align: left;
   font-family: "Anek Latin", sans-serif;
-  font-size: 96px;
+  font-size: 5vw;
   line-height: 120%;
   font-weight: 800;
-  left: 297px;
-  top: 73.47px;
-  height: 386px;
+  left: 15.5vw; 
+  top: 3.8vw; 
+  height: 20vw;
 }
 
 .text-box {
@@ -73,7 +73,7 @@ top: 5.9375vw;
 .icon {
   display: flex;
   flex-direction: row;
-  gap: 1.875rem;
+  gap: 1vw;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 1rem; /* Spacing below icon section */
@@ -99,13 +99,13 @@ top: 5.9375vw;
   justify-content: flex-start;
   position: absolute;
   left: 78%;
-  top: 64%;
+  top: 36vw;
   gap: 2rem;
 }
 .bord-txt._2024 {
   text-align: left;
   font-family: "Anek Latin", sans-serif;
-  font-size: 128px;
+  font-size: 6.7vw;
   font-weight: 700;
   position: relative;
   background-color: #fff;
@@ -114,7 +114,7 @@ top: 5.9375vw;
   margin: 0 0 0 -32px;
   text-align: left;
   font-family: "Pretendard-ExtraLight", sans-serif;
-  font-size: 32px;
+  font-size: 1.67vw;
   letter-spacing: 0.06em;
   font-weight: 200;
   position: relative;
@@ -142,28 +142,47 @@ top: 5.9375vw;
     gap: 10px;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 130px;
-    height: 130px;
+    width: 6.7708vw;
+    height: 6.7708vw;
     position: absolute;
     left: 7%;
-    top: 12%;
+    top: 8vw;
 }
 .gif {
   flex-shrink: 0;
-  width: 130px;
-  height: 130px;
+  width: 6.7708vw;
+  height: 6.7708vw;
   position: relative;
   object-fit: cover;
 }
 .logo-label-1 {
-  width: 1840px;
-  height: 42px;
+  width: 95.8vw; /* 1840px → 95.8vw */
+  height: 2.2vw; /* 42px → 약 2.2vw */
   position: absolute;
-  left: 40px;
-  top: 949px;
-  object-fit: cover;
-}
+  left: 2.1vw; /* 40px → 2.1vw */
+  top: 49.5vw; /* 949px → 약 49.5vw */
 
+}
+._2024 {
+  text-align: left;
+  font-family: "Anek Latin", sans-serif;
+  font-size: 6.67vw;
+  font-weight: 700;
+  position: relative;
+  background-color: #fff;
+}
+.ver {
+  margin: 0 0 0 -32px;
+  text-align: left;
+  font-family: "Pretendard-ExtraLight", sans-serif;
+  font-size: 1.67vw;
+  letter-spacing: 0.06em;
+  font-weight: 200;
+  position: relative;
+  width: 3.85vw; /* 74px → 3.85vw */
+  height: 2.08vw;
+  -webkit-text-stroke: 8px transparent;
+}
 
 /* section-2 */
 
