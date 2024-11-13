@@ -1,0 +1,188 @@
+.section-1,
+.section-1 * {
+  box-sizing: border-box;
+}
+.section-1 {
+  background: #ffffff;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.cat-img {
+  width: 193px;
+  height: 98px;
+  position: absolute;
+  left: 1320px;
+  top: 114px;
+  object-fit: cover;
+}
+.main-text {
+  background: #ffffff;
+  border-radius: 31px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 34px 43px 34px 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 1326px;
+  height: 526px;
+  position: absolute;
+  left: 297px;
+  top: 212px;
+  box-shadow: 0px 0px 15.3px 13px rgba(0, 0, 0, 0.06);
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 132px;
+  height: 26px;
+  position: relative;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-3 {
+  background: #ff0000;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.ellipse-4 {
+  background: #ffcc00;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.ellipse-5 {
+  background: #0066b4;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.discover-my-web-design-and-explore-web-publishing {
+  color: #000000;
+  text-align: left;
+  font-family: "AnekLatin-ExtraBold", sans-serif;
+  font-size: 96px;
+  line-height: 120%;
+  font-weight: 800;
+  position: absolute;
+  left: calc(50% - 556px);
+  top: 73.47px;
+  width: 1152px;
+  height: 386px;
+}
+.text-box {
+  background: #affeaa;
+  border-radius: 72px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 49px 0px 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 511.17px;
+  height: 89px;
+  position: absolute;
+  left: 688.56px;
+  top: 96.47px;
+}
+.portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "AnnieUseYourTelescope-Regular", sans-serif;
+  font-size: 76px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.bord-txt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1353px;
+  top: 641px;
+}
+._2024 {
+  color: #000000;
+  text-align: left;
+  font-family: "AnekLatin-Bold", sans-serif;
+  font-size: 128px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  position: relative;
+  width: 333.82px;
+  height: 157.95px;
+  -webkit-text-stroke: 10px #ffffff;
+}
+.ver {
+  margin: 0 0 0 -32px;
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-ExtraLight", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.06em;
+  font-weight: 200;
+  position: relative;
+  width: 74px;
+  height: 40px;
+  -webkit-text-stroke: 8px transparent;
+}
+.side-icon-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 152px;
+  height: 150px;
+  position: absolute;
+  left: 1672px;
+  top: 422px;
+  overflow: visible;
+}
+.side-icon-1 {
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 133px;
+  height: 131px;
+  position: absolute;
+  left: 207px;
+  top: 122px;
+}
+.gif {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: cover;
+}
+.logo-label-1 {
+  width: 1840px;
+  height: 42px;
+  position: absolute;
+  left: 40px;
+  top: 949px;
+  object-fit: cover;
+}

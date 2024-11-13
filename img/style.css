@@ -1,0 +1,356 @@
+.section-2,
+.section-2 * {
+  box-sizing: border-box;
+}
+.section-2 {
+  background: #efefe7;
+  height: 1282px;
+  position: relative;
+}
+.sec-2-grid {
+  width: 1640px;
+  height: 1060px;
+  position: absolute;
+  left: 140px;
+  top: 111px;
+}
+.grid-1 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.union {
+  flex-shrink: 0;
+  width: 63.65px;
+  height: 72.43px;
+  position: relative;
+  overflow: visible;
+}
+.html-5-css-3 {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+.api-pc-flex-grid-css-animation {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 600;
+  position: relative;
+}
+.grid-2 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 410px;
+  top: 0px;
+}
+.union2 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 64px;
+  position: relative;
+  overflow: visible;
+}
+.java-script-j-query {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  position: relative;
+}
+.es-6-plugin {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 600;
+  position: relative;
+}
+.grid-3 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 820px;
+  top: 0px;
+}
+.union3 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 61px;
+  position: relative;
+  overflow: visible;
+}
+.git-github {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 400;
+  position: relative;
+}
+.git-github2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 600;
+  position: relative;
+}
+.grid-4 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 1230px;
+  top: 0px;
+}
+.union4 {
+  flex-shrink: 0;
+  width: 61.5px;
+  height: 63.42px;
+  position: relative;
+  overflow: visible;
+}
+.tool {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  position: relative;
+}
+.figma-lottie-json {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 600;
+  position: relative;
+}
+.grid-5 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 0px;
+  top: 530px;
+}
+.ellipse-17 {
+  flex-shrink: 0;
+  width: 64.45px;
+  height: 64.45px;
+  position: relative;
+  overflow: visible;
+}
+.react {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  position: relative;
+}
+.css-modules-styled-component-bootstrap {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  position: relative;
+}
+.grid-6 {
+  padding: 70px 50px 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 410px;
+  height: 530px;
+  position: absolute;
+  left: 410px;
+  top: 530px;
+}
+.union5 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 64px;
+  position: relative;
+  overflow: visible;
+}
+.other {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoCondensed-Regular", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  position: relative;
+}
+.flex-grid-css-animation {
+  color: #000000;
+  text-align: left;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 600;
+  position: relative;
+}
+.grid-7 {
+  padding: 158px 68px 158px 68px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 820px;
+  top: 530px;
+}
+.img {
+  background: #ffffff;
+  border-radius: 36px;
+  padding: 2px 7px 2px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 214px;
+  height: 214px;
+  position: relative;
+}
+._1-2 {
+  flex-shrink: 0;
+  width: 200px;
+  height: 210px;
+  position: relative;
+  object-fit: cover;
+}
+.gird-7-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 304px;
+  position: relative;
+}
+.frame-37 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 286px;
+  position: relative;
+}
+.kim-jae-hwan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 170%;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  height: 48px;
+}
+._2000-10-14 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  line-height: 170%;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+  height: 30px;
+}
+.mbti-intp {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  line-height: 170%;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+  height: 30px;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 300;
+  position: relative;
+  width: 286px;
+}
+.e-mail-azghmam-naver-com-github-https-github-com-jk-0014-h {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.border {
+  height: auto;
+  position: absolute;
+  left: calc(50% - 820px);
+  top: 0px;
+  overflow: visible;
+}
