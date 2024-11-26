@@ -1,0 +1,59 @@
+/* 섹션 2 박스별 호벌 */
+.section-2 .grid:hover{
+  transform: scale(1.05); /* 박스를 약간 확대 */
+  box-shadow: 0 1.041vw 3.125vw rgba(0, 0, 0, 0.3); /* 박스 앞으로 튀어나오는 느낌의 그림자 */
+  z-index: 10; /* 다른 요소 위로 올라오도록 설정 */
+}
+.sec-2-grid .grid:hover::before,
+.sec-2-grid .grid:hover::after {
+  opacity: 0; 
+}
+
+.pofor-box-sm1:hover .img-icon {
+  left: 2vw; /* 아이콘 위치 이동 */
+  width: 120px; /* 크기 증가 */
+}
+.pofor-box-sm1:hover .arrow12{
+  transform: rotate(45deg); /* 화살표 방향 고정 */
+}
+.pofor-box-sm2:hover .img-icon {
+  left: 2vw; /* 아이콘 위치 이동 */
+  width: 120px; /* 크기 증가 */
+}
+.pofor-box-sm2:hover .arrow12{
+  transform: rotate(45deg); /* 화살표 방향 고정 */
+}
+
+.pofor-box-big:hover .img-icon {
+  left: 2vw; /* 아이콘 위치 이동 */
+  width: 120px; /* 크기 증가 */
+}
+.pofor-box-big:hover .arrow12{
+  transform: rotate(45deg); /* 화살표 방향 고정 */
+}
+
+
+
+/* 
+.sec-2-grid .grid:hover::before,
+.sec-2-grid .grid:hover::after {
+  opacity: 0; 
+} */
+
+
+
+
+/* 섹션 3박스 호벌 */
+
+.section-3 .pofor-box-sm1 .bg-img-sm:hover{
+  border-radius: 1.4583vw;
+}
+.section-3 .pofor-box-sm2 .bg-img-sm:hover{
+  border-radius: 1.4583vw;
+}
+.section-3 .pofor-box-big .bg-img-big:hover{
+  border-radius: 1.4583vw;
+}
+.catagory-list p:hover{
+  border: 1px solid #000;
+}
