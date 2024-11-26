@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.moreview li ul .button:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fbfff0;
+  background-color: #2d2d2d;
+  line-height: 1.2;
+  /* padding: 0.4vw 4.5vw; */
+}
+
+.section-3 .button ul .hover1:hover{
+  color: #F44E1C;
+  font-size: 4vw;
+}
+.section-3 .button ul .hover2:hover{
+  color: #A259FF;
+  font-size: 4vw;
+}
+.section-3 .button ul .hover3:hover{
+  color: #03D081;
+  font-size: 4vw;
+}
+
+.last .catagory-list p:hover{
+  border: 1px solid #000;
+}
