@@ -631,10 +631,12 @@
   background-repeat: no-repeat;
 }
 .box-two .box-two {
-    background: url(../img/compose.jpg);
+    background: url(../img/project-img.png);
+    background-repeat: no-repeat;
 }
 .box-three .box-three{
-  background: url(../img/compose.jpg);
+  background: url(../img/project-img.png);
+    background-repeat: no-repeat;
 }
 
 
