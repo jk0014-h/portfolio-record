@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>animate 연습 4</title>
+  <link rel="stylesheet" href="../../../../css/reset.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../../../../js/jquery-3.7.1.js"></script>
+</head>
+<body>
+  <!-- banner -->
+  <div id="banner">
+    <div id="banner_inner">광고 배너입니다.</div>
+    <div id="banner_close">하루동안 창 열지 않기</div>
+  </div>
+
+  <h1>animate 연습 4</h1>
+  <!-- tab slide -->
+  <div id="slide_container">
+    <ul id="tab_btn">
+      <li>img1</li>
+      <li>img2</li>
+      <li>img3</li>
+      <li>img4</li>
+    </ul>
+    <div id="gallery"><!-- overflow-->
+      <ul id="slide_img">
+        <li><img src="../../img/brand-1.jpg" alt="bg1"></li>
+        <li><img src="../../img/brand-1.jpg" alt="bg2"></li>
+        <li><img src="../../img/brand-1.jpg" alt="bg3"></li>
+        <li><img src="../../img/brand-1.jpg" alt="bg4"></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- sliding menu -->
+  <nav>
+    <!-- 열기 버튼 -->
+    <div id="menu_open" class="menu">open</div>
+    <!-- 실제 슬라이딩 메뉴 -->
+    <div class="nav_container">
+      <div id="menu_close" class="menu">close</div>
+      <ul id="gnb">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+        <li>menu4</li>
+      </ul>
+    </div>
+  </nav>
+
+<script src="script.js"></script>  
+</body>
+</html>
