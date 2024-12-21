@@ -1,0 +1,433 @@
+@charset "utf-8";
+
+
+body {
+  background: #efefe7;
+  /* height: 6800px; */
+}
+.banner{
+  margin-bottom:12.1875vw;
+  text-align: center;
+}
+.banner p {
+  color: #141414;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  /* top: calc(50% - 270px); */
+}
+/* 배너 텍스트 */
+.banner .title {
+  margin: 14.0625vw 0 3.7500vw 0;
+}
+.banner .big {
+  text-transform: uppercase;
+  font-size: 5.2083vw;
+  font-weight: 900;
+}
+.banner .big span {
+  font-weight: 100;
+}
+.banner .sm {
+  font-size: 1.8750vw;
+  font-weight: 200;
+}
+
+/* 배너 화살표 */
+.banner .image{
+  text-align: center;
+}
+.banner .arrow {
+  color: black;
+  height: 9.0625vw;
+}
+
+.banner .sub-title{
+  display: inline-block;
+  width: 24.0625vw;
+  /* color: #82DC28;
+  font-family: "Poppins", sans-serif;
+  font-size: 5vw;
+  line-height: 120%;
+  font-weight: 900;
+  text-transform: uppercase; */
+  margin-top: 2.9167vw;
+}
+
+
+
+
+/* section 1 */
+.section-1 .title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 12.5000vw;
+}
+.section-1 .title .txt{
+  font-size: 3.3333vw;
+  line-height: 120%;
+  font-weight: 700;
+  margin-left: 11.1979vw;
+}
+.section-2 .title-type1{
+  gap: 6.2500vw;
+}
+.title-type1{
+  margin: 5.8333vw 12.7604vw 0 12.7604vw;
+  display: flex;
+  gap: 12.7083vw;
+}
+.section-1 .list-title{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6667vw;
+  font-weight: 700;
+}
+.title-type1 .part-txt ul{
+  display: flex;
+  gap: 0.9375vw;
+}
+.title-type1 .part-txt ul li{
+ 
+  padding: 0.3125vw 2.1875vw;
+  border: 1px solid #000;
+  border-radius: 96px;
+}
+.title-type1 .part-txt ul li p{
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+}
+
+
+.title-type2{
+  margin:5.2083vw 12.7604vw 0  12.7604vw;
+}
+.title-type2 .list-title{
+  margin-bottom: 5.6250vw;
+}
+.title-type2 .type2-img img{
+  border-radius: 28px;
+}
+
+.overview-ul{
+  display: flex;
+ justify-content: space-between;
+}
+.overview-ul li ul{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2.0833vw;
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.0417vw;
+  font-weight: 300;
+}
+
+
+.section-1 .title-type2 img{
+  width: 46.3542vw;
+}
+
+.title-type3 p{
+  margin:5.2083vw 12.7604vw 3.2292vw 12.7604vw;
+}
+.title-type3 img{
+  margin: 0 5.7292vw;
+  width: 88.5417vw
+  ;
+}
+
+.title-type4{
+  text-align: center;
+  margin-top: 5.2083vw;
+}
+.title-type4 .moreview{
+  margin: 2.9167vw 14.5833vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.9375vw;
+
+}
+.moreview img{
+  width: 34.8958vw;
+}
+.title-type4 .moreview li .button {
+  margin-top: 0.521vw;
+  border: 1px solid #000;
+  border-radius: 1.563vw; 
+  padding: 0.521vw 5.208vw;
+  line-height: 1.2;
+  display: inline-block;
+  transition: all 0.2s ease-in-out; 
+}
+
+.title-type4 .moreview li .button a {
+  display: inline-block;
+  text-align: left;
+  justify-items: left;
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.25vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+
+.key-word-lsit ul {
+  display: flex;
+  gap: 0.729vw;
+}
+
+.key-word-lsit ul li {
+  color: #fff;
+  background: #383735;
+  padding: 0.521vw 1.042vw;
+  border-radius: 4.167vw;
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.458vw;
+  font-weight: 600;
+}
+
+.key-word-lsit ul span {
+  color: #f1c312;
+}
+
+.font-style-list {
+  display: flex;
+  gap: 7.135vw;
+  margin-top: 2.969vw;
+}
+
+.font-style-title {
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.667vw;
+  line-height: 120%;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.313vw;
+}
+
+.font-style-title div {
+  font-family: "Pretendard", sans-serif;
+  font-size: 0.833vw;
+  line-height: 120%;
+  font-weight: 200; 
+}
+
+.font-list {
+  margin-top: 2.604vw;
+}
+
+.font-list .flex {
+  display: flex;
+  gap: 3.177vw;
+  align-items: flex-start; 
+}
+
+.font-style-list p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.667vw;
+  font-weight: 700;
+}
+
+.font-style-list .flex ul {
+  display: flex;
+  flex-direction: column; 
+}
+
+.font-style-list ul {
+  gap: 0.521vw;
+}
+
+.font-style-list-body ul {
+  gap: 1.146vw;
+}
+
+.font-style-list-body-list1 ul {
+  margin-bottom: 1.302vw;
+  width: 15.625vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.521vw;
+}
+
+.font-style-list-title li {
+  font-family: "Pretendard", sans-serif;
+  font-weight: bold;
+}
+
+.font-style-list-title .style1 {font-size: 1.25vw;}
+.font-style-list-title .style2 {font-size: 1.146vw;}
+.font-style-list-title .style3 {font-size: 1.042vw;}
+.font-style-list-title .style4 {font-size: 0.833vw;}
+
+.font-style-list-body li {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+}
+
+.font-style-list-body .style1 {font-size: 1.042vw;}
+.font-style-list-body .style2 {font-size: 0.729vw;}
+.font-style-list-body .style3 {font-size: 0.625vw;}
+
+.font-style-list-body-list1 .style1 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600;
+  font-size: 1.25vw;
+}
+
+.font-style-list-body-list1 .style2 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600;
+  font-size: 0.833vw;
+}
+
+.font-style-list-body-list1 .style3 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 300;
+  font-size: 1.042vw;
+}
+
+.color-main-ul {
+  display: flex;
+  gap: 2.917vw;
+  margin-left: 5vw;
+}
+
+.color-style-ul {
+  margin-top: 2.083vw;
+}
+
+.color-title p {
+  font-family: "Poppin", sans-serif;
+  font-size: 1.667vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 3.958vw;
+}
+
+.color-style-ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.865vw;
+}
+
+.color-main ul {
+  display: flex;
+}
+
+.color-main .main-color ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.color-main .main-color ul p {
+  margin-bottom: 1.563vw;
+}
+
+.sub-color-grid {
+  margin-left: 5.938vw;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  gap: 2.083vw;
+}
+
+.sub-color-grid p {
+  margin-top: 0.521vw;
+}
+
+.title-type3-1 {
+  margin: 5.833vw 12.755vw 0 12.755vw;
+  display: flex;
+  gap: 9.74vw;
+  flex-direction: column;
+}
+
+.list-title-ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.958vw;
+}
+
+.review-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.042vw;
+}
+
+.review-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.667vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.review-text li {
+  line-height: 2.083vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25vw;
+  font-weight: 300;
+}
+
+.section-3 .button {
+  margin-top: 10.833vw;
+  text-align: right;
+}
+
+.section-3 .button ul {
+  display: flex;
+  /* border: 1px solid #000;
+  border-radius: 2.604vw; */
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.875vw;
+  font-weight: 600;
+  padding: 0.521vw 5.208vw; 
+  display: inline-block;
+  margin-bottom: 8.146vw;
+  line-height: 60px;
+}
+.section-3 .button ul li{
+  transition: all 0.4s ease-in-out; 
+}
+
+.last {
+  margin: 0 2.083vw;
+}
+
+.last p {
+  font-size: 3.333vw;
+  font-weight: 400;
+  font-family: "Pretendard", sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  
+}
+
+.catagory-list {
+  margin: 4.427vw 0 0 1.771vw;
+  display: flex;
+  flex-direction: row;
+  gap: 5.833vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.catagory-list p {
+  color: #5c5c5c;
+  text-align: left;
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.146vw;
+  font-weight: 400;
+  border: 1px solid transparent;
+  border-radius: 80px;
+  padding: 0.4vw 1vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.bottom {
+  margin: 2.083vw auto 1.458vw;
+  display: flex;
+  justify-items: center;
+  border: 1px solid #000;
+  width: 93.750vw;
+}
