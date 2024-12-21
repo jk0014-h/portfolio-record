@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+h1 { text-align: center; font-size: 2.5rem; font-weight:bold; }
+/* banner */
+#banner { width: 100%; height: 110px; transition:.4s; text-align: center; color:#fff; position: relative; /*background-color: #ddd;*/ }
+#banner.on { transform: translateY(-80px);}
+#banner #banner_inner { background-color: #5463FF; height: 80px;  border-bottom:2px solid #000; }
+#banner #banner_close { background-color: #5463FF; width:260px; height:30px; line-height: 28px; border:2px solid #000; border-top:none; position: absolute; right:20px; bottom: 2px; box-shadow: 2px 2px #000; transition: .3s;}
+#banner #banner_close:hover { box-shadow: none; right:18px }
+
+/* tab slide */
+#slide_container { margin: 50px auto; width:70vw; text-align: center; }
+#slide_container img { width:100%; }
+#slide_container #tab_btn { display: flex; justify-content: center;  font-size: 1.2rem; font-weight: bold; color:#fff; }
+#slide_container #tab_btn li { background-color: #000; cursor: pointer; width:100px; padding: 10px; margin:0 1px; border-radius:14px 14px 0 0;} 
+#slide_container #tab_btn li:hover { background-color: #041562;}
+
+#slide_container #gallery { border:10px solid #000; overflow: hidden;}
+#slide_container #gallery #slide_img { display: flex; width: 280vw; transition:.5s; transform: translateX(0); }
+#slide_container #gallery #slide_img li { width:100% }
+
+/* sliding menu */
+nav { position: fixed; height: 100%; top:0; left:0 }
+nav .menu { width:40px; height: 40px; background-color: red; cursor: pointer; position: absolute; top:10px }
+nav #menu_open { left:10px }
+nav .nav_container { background-color: orange; width:160px; height: 100%; position: absolute; top:0; left:-160px }
+nav #menu_close { right:10px }
+
+nav #gnb { padding-top: 100px; padding-left: 40px; line-height: 2; }
