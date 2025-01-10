@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
   
 
@@ -111,7 +111,42 @@
   height: 40px;
   -webkit-text-stroke: 8px transparent;
 }
-.side-icon-2 {
+
+
+
+.section-1 .star_icon{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 87%;
+  top: 38%;
+  overflow: hidden;
+  background-image: url('../img/icon_frame.png');
+  background-size: cover;
+  background-position: center;
+
+  transform: scale(0);
+  animation: scale-up 1s ease-out forwards;
+}
+.section-1 .star_icon .star{
+  background-image: url('../img/Star_2.gif'); /* 별 이미지 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  transform: scale(0);
+  animation: scale-up 1s ease-out forwards; 
+  top: 18%; /* 부모 요소의 50% */
+  left: 18%; /* 부모 요소의 50% */
+}
+
+/* .side-icon-2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -123,7 +158,7 @@
   left: 87%;
   top: 38%;
   overflow: visible;
-}
+} */
 .side-icon-1 {
     padding: 0;
     display: flex;
@@ -136,13 +171,16 @@
     position: absolute;
     left: 7%;
     top: 8vw;
+    transform: scale(0);
+    animation: scale-up 1s ease-out forwards;
 }
 .gif {
   flex-shrink: 0;
-  width: 6.7708vw;
-  height: 6.7708vw;
+  width: 6.6708vw;
+  height: 6.6708vw;
   position: relative;
   object-fit: cover;
+  text-align: center;
 }
 .logo-label-1 {
   width: 95.8vw; /* 1840px → 95.8vw */
@@ -542,7 +580,7 @@
 /* 박스 이미지가 들어갈 백그라운드 */
 .bg-img-sm{
   background: #fff3ac;
-  transition: 0.4s ease-in-out;
+  transition: filter 0.5s ease, border-radius 0.5s ease-in-out;
   border-radius: 0.5vw; 
   /* 백스라운드 이미지 넣을 자리 */
   width: 100%;
@@ -552,8 +590,8 @@
   left: 0%;
   bottom: 0%;
   top: 0%;
-}
 
+}
   /* 이미지가 들어가는 박스 */
 .pofor-box-sm1 {
   width: 31.7729vw;
@@ -594,12 +632,19 @@
     right: 2.083vw;
     top: 111.245vw;
   }
-
   .box-one .box-one {
     background: url(../img/olive-img.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-}
+    filter: blur(2px);
+    /* transition: filter 0.5s ease; */
+  }
+  .box-one .box-one:hover{
+    filter: blur(0);
+  }
+
+
+
 /* 큰 박스 */
 
 /* 이미지가 들어가는 박스 */
@@ -628,11 +673,23 @@
     background: url(../img/project-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    filter: blur(2px);
+    transition: filter 0.5s ease;
 }
 .box-three .box-three{
   background: url(../img/project-img.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  transition: filter 0.5s ease;
 }
+.box-two .box-two:hover{
+  filter: blur(0);
+}
+.box-three .box-three:hover{
+  filter: blur(0);
+}
+
 
 
 /* 그 박스의 제목과 카테고리, 설명문or부제목 */
@@ -647,7 +704,7 @@
   right: 2.083vw;
   top: 77.969vw;
 }
-
+                 
 .box-three .pofor-box-big{
   left: 2.0833vw;
   top: 92.385vw;
@@ -661,9 +718,23 @@
   padding: 3.125vw 1.042vw;
   width: 62.500vw;
   height: 7.813vw;
-  position: absolute;
+  position: absolute;           
   left: 2.083vw;
   top: 133vw
+}
+
+.section-3 .box_grid .box  .title_wrapper span{
+position: absolute;
+display: block;
+width: 0;
+height: 0;
+border-radius: 50%;
+background-color: #fff;
+transition: 0.1s;
+}
+.section-3 .box_grid .box  .title_wrapper:hover span{
+  width: 300px;
+  height: 300px;
 }
 
 /* 섹션 4 */
