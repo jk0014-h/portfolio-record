@@ -9,11 +9,11 @@
   opacity: 0; 
 }
 
-.pofor-box-sm1:hover .img-icon {
+.pofor-box-sm-href:hover .img-icon {
   left: 2vw; /* 아이콘 위치 이동 */
   width: 120px; /* 크기 증가 */
 }
-.pofor-box-sm1:hover .arrow12{
+.pofor-box-sm-href:hover .arrow12{
   transform: rotate(45deg); /* 화살표 방향 고정 */
 }
 .pofor-box-sm2:hover .img-icon {
@@ -24,11 +24,11 @@
   transform: rotate(45deg); /* 화살표 방향 고정 */
 }
 
-.pofor-box-big:hover .img-icon {
+.pofor-box-big-href:hover .img-icon {
   left: 2vw; /* 아이콘 위치 이동 */
   width: 120px; /* 크기 증가 */
 }
-.pofor-box-big:hover .arrow12{
+.pofor-box-big-href:hover .arrow12{
   transform: rotate(45deg); /* 화살표 방향 고정 */
 }
 
@@ -45,14 +45,11 @@
 
 /* 섹션 3박스 호벌 */
 
-.section-3 .pofor-box-sm1 .bg-img-sm:hover{
+.section-3 .pofor-box-sm-href .bg-img-sm:hover{
   border-radius: 1.4583vw;
 
 }
-.section-3 .pofor-box-sm2 .bg-img-sm:hover{
-  border-radius: 1.4583vw;
-}
-.section-3 .pofor-box-big .bg-img-big:hover{
+.section-3 .pofor-box-big-href .bg-img-big:hover{
   border-radius: 1.4583vw;
 }
 .catagory-list p:hover{

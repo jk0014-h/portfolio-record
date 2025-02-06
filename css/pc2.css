@@ -575,14 +575,15 @@
 }
 
 
+
+
 /* 작은 박스  */
 
-/* 박스 이미지가 들어갈 백그라운드 */
+/* 작은박스 이미지가 들어갈 백그라운드 */
 .bg-img-sm{
   background: #fff3ac;
   transition: filter 0.5s ease, border-radius 0.5s ease-in-out;
   border-radius: 0.5vw; 
-  /* 백스라운드 이미지 넣을 자리 */
   width: 100%;
   height: 100%;
   position: absolute;
@@ -590,17 +591,8 @@
   left: 0%;
   bottom: 0%;
   top: 0%;
-
 }
-  /* 이미지가 들어가는 박스 */
-.pofor-box-sm1 {
-  width: 31.7729vw;
-  height: 20.8333vw;
-  position: absolute;
-  left: 2.0833vw;
-  top: 37.0833vw;
-}
-/* 그 박스의 제목과 카테고리, 설명문or부제목 */
+/* 작은박스 하단에 들어가는 텍스트박스 */
 .img-title-small{
   border-radius: 0px 0px 30px 30px;
   border:1px solid #000;
@@ -609,57 +601,75 @@
   width: 31.7729vw;
   height: 7.813vw;
   position: absolute;
+  
+}
+/* 작은 박스 제목 위치1 */
+.box-sm .t-sm-one{
   left: 2.083vw;
   top: 55.833vw; 
 }
-  /* 이미지가 들어가는 박스 */
-  .pofor-box-sm2 {
-    width: 31.7729vw;
-    height: 20.8333vw;
-    position: absolute;
-    right: 2.0833vw;
-    top: 92.385vw
-  }
-  /* 그 박스의 제목과 카테고리, 설명문or부제목 */
-  .img-title-four{
-    border-radius: 0px 0px 30px 30px;
-    border:1px solid #000;
-    border-top: 0;
-    padding: 3.125vw 1.042vw;
-    width: 31.7729vw;
-    height: 7.813vw;
-    position: absolute;
-    right: 2.083vw;
-    top: 111.245vw;
-  }
-  .box-one .box-one {
-    background: url(../img/olive-img.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(2px);
-    /* transition: filter 0.5s ease; */
-  }
-  .box-one .box-one:hover{
-    filter: blur(0);
-  }
+/* 작은 박스 제목 위치2 */
+.box-sm .t-sm-two{
+  right: 2.083vw;
+  top: 111.245vw;
+}
+/* 이미지가 들어가는 작은박스 1*/
+.box-one .sm-one{
+  /* 박스 크기 */
+  width: 31.7729vw;
+  height: 20.8333vw;
+  position: absolute;
+  /* 박스위치 */
+  left: 2.0833vw;
+  top: 37.0833vw;
+} 
+/* 이미지가 들어가는 작은박스 2*/
+.box-four .sm-two{
+  width: 31.7729vw;
+  height: 20.8333vw;
+  position: absolute;
+  right: 2.0833vw;
+  top: 92.385vw
+}
+
+
+/* 작은박스에 들어갈 이미지 1*/
+.box-one .box-one {
+  background: url(../img/olive-img.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+}
+/* 작은박스에 들어갈 이미지 2*/
+
+/* 작은박스 제목,부제목 */
+.img-title-four{
+  border-radius: 0px 0px 30px 30px;
+  border:1px solid #000;
+  border-top: 0;
+  padding: 3.125vw 1.042vw;
+  width: 31.7729vw;
+  height: 7.813vw;
+  position: absolute;
+  right: 2.083vw;
+  top: 111.245vw;
+}
+
+
+
+.box-one .box-one:hover{
+  filter: blur(0);
+}
 
 
 
 /* 큰 박스 */
 
-/* 이미지가 들어가는 박스 */
-.box-bg .pofor-box-big {
-  width: 62.500vw;
-  height: 42.615vw;
-  position: absolute;
-  right: 2.0833vw;
-  top: 37.0833vw;
-}
-
-/* 박스 이미지가 들어갈 백그라운드 */
+/* 큰 박스 이미지가 들어갈 백드라운드 */
 .bg-img-big{
-  border-radius: 0.5vw; 
-  transition: 0.4s ease-in-out;
+  background: #fff3ac;
+  transition: filter 0.5s ease, border-radius 0.5s ease-in-out;
+  border-radius: 0.5vw;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -667,33 +677,9 @@
   left: 0%;
   bottom: 0%;
   top: 0%;
-  background-repeat: no-repeat;
 }
-.box-two .box-two {
-    background: url(../img/project-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(2px);
-    transition: filter 0.5s ease;
-}
-.box-three .box-three{
-  background: url(../img/project-img.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(2px);
-  transition: filter 0.5s ease;
-}
-.box-two .box-two:hover{
-  filter: blur(0);
-}
-.box-three .box-three:hover{
-  filter: blur(0);
-}
-
-
-
-/* 그 박스의 제목과 카테고리, 설명문or부제목 */
-.img-title-big{
+/* 큰 박스의 제목,카테고리, 설명문or부제목 */
+.box-bg .img-title-big{
   border-radius: 0px 0px 30px 30px;
   border:1px solid #000;
   border-top: 0;
@@ -701,9 +687,59 @@
   width: 62.500vw;
   height: 7.813vw;
   position: absolute;
+}
+/* 큰박스 제목위치 1*/
+.box-bg .t-two{
   right: 2.083vw;
   top: 77.969vw;
 }
+/* 큰박스 제목위치 2*/
+.box-bg .t-three{
+  left: 2.0833vw;
+  top: 133vw;
+}
+/* 이미지가 들어갈 큰 박스 1 */
+.box-two .big-one{
+  width: 62.500vw;
+  height: 42.615vw;
+  position: absolute;
+  right: 2.0833vw;
+  top: 37.0833vw;
+}
+/* 이미지가 들어갈 큰 박스 2 */
+.box-three .big-two{
+  width: 62.500vw;
+  height: 42.615vw;
+  position: absolute;
+  right: 2.0833vw;
+  left: 2.0833vw;
+  top: 92.385vw;
+ 
+    
+}
+/* 큰박스에 들어갈 이미지 1 */
+.box-two .box-two {
+    background: url(../img/project-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+/* 큰박스에 들어갈 이미지 2 */
+.box-three .box-three{
+  background: url(../img/test.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+
+.box-two .box-two:hover{
+  filter: blur(0);
+}
+.box-three .box-three:hover{
+  filter: blur(0);
+}
+
                  
 .box-three .pofor-box-big{
   left: 2.0833vw;
@@ -711,19 +747,9 @@
   position: absolute
 }
 
-.img-title-big-three{
-  border-radius: 0px 0px 30px 30px;
-  border:1px solid #000;
-  border-top: 0;
-  padding: 3.125vw 1.042vw;
-  width: 62.500vw;
-  height: 7.813vw;
-  position: absolute;           
-  left: 2.083vw;
-  top: 133vw
-}
 
-.section-3 .box_grid .box  .title_wrapper span{
+
+.section-3 .box_grid .box .title_wrapper span{
 position: absolute;
 display: block;
 width: 0;
@@ -732,7 +758,7 @@ border-radius: 50%;
 background-color: #fff;
 transition: 0.1s;
 }
-.section-3 .box_grid .box  .title_wrapper:hover span{
+.section-3 .box_grid .box .title_wrapper:hover span{
   width: 300px;
   height: 300px;
 }
