@@ -27,10 +27,7 @@
   display: flex;
   flex-direction: column;
 
-  /* width: 92.0833vw; */
-  /* height: 526px; */
-  /* left: 18.5625rem;
-  top: 13.25rem; */
+ 
 }
 
 .section-1-title{
@@ -65,7 +62,7 @@
   gap: 1vw;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 1rem; /* Spacing below icon section */
+  margin-bottom: 1rem; 
 }
 
 .ellipse {
@@ -132,7 +129,7 @@
   animation: scale-up 1s ease-out forwards;
 }
 .section-1 .star_icon .star{
-  background-image: url('../img/Star_2.gif'); /* 별 이미지 */
+  background-image: url('../img/Star_2.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -142,23 +139,11 @@
   overflow: hidden;
   transform: scale(0);
   animation: scale-up 1s ease-out forwards; 
-  top: 18%; /* 부모 요소의 50% */
-  left: 18%; /* 부모 요소의 50% */
+  top: 18%; 
+  left: 18%; 
 }
 
-/* .side-icon-2 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 152px;
-  height: 150px;
-  position: absolute;
-  left: 87%;
-  top: 38%;
-  overflow: visible;
-} */
+
 .side-icon-1 {
     padding: 0;
     display: flex;
@@ -183,11 +168,11 @@
   text-align: center;
 }
 .logo-label-1 {
-  width: 95.8vw; /* 1840px → 95.8vw */
-  height: 2.2vw; /* 42px → 약 2.2vw */
+  width: 95.8vw; 
+  height: 2.2vw; 
   position: absolute;
-  left: 2.1vw; /* 40px → 2.1vw */
-  top: 49.5vw; /* 949px → 약 49.5vw */
+  left: 2.1vw;
+  top: 49.5vw; 
 
 }
 .bord-txt ._2024 {
@@ -206,7 +191,7 @@
   letter-spacing: 0.06em;
   font-weight: 200;
   position: relative;
-  width: 3.85vw; /* 74px → 3.85vw */
+  width: 3.85vw;
   height: 2.08vw;
   -webkit-text-stroke: 8px transparent;
 }
@@ -243,8 +228,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-top: 1px solid #000; /* 위쪽 테두리 */
-  border-bottom: 1px solid #000; /* 아래쪽 테두리 */
+  border-top: 1px solid #000; 
+  border-bottom: 1px solid #000; 
   box-sizing: border-box;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -277,9 +262,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 1px; /* 세로선 너비 */
+  width: 1px; 
   height: 100%;
-  background-color: #efefe7; /* 세로선 색상 */
+  background-color: #efefe7; 
   pointer-events: none;
 }
 
@@ -438,7 +423,9 @@
   align-self: stretch;
 }
 
-
+.hidddden{
+  display: none;
+}
 /* section 3 */
 .section-3,
 .section-3 * {
@@ -446,7 +433,8 @@
 }
 .section-3 {
   background: #ffffff;
-  height: 144vw;
+  height: 90vw;
+  /* 나머지 완성되면 144vw로 복구 */
   width: 100vw;
   position: relative;
   overflow: hidden;
@@ -466,12 +454,12 @@
   background-color: #fff;
   border-radius: 50px;
   transition: all 0.4s ease, left 0.4s ease;
-  position: absolute; /* 위치를 고정 */
-  left: 0.5vw; /* 기본 위치 */
+  position: absolute; 
+  left: 0.5vw; 
 
-  display: flex; /* Flexbox 활성화 */
-  justify-content: center; /* 가로축 중앙 정렬 */
-  align-items: center; /* 세로축 중앙 정렬 */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 
@@ -516,7 +504,6 @@
 }
 
 /* 섹션3 박스 그리드  
-.section-3 .grid{}*/
 
 
 /* 섹션 3 박스 */
