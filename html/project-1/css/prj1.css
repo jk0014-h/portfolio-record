@@ -135,9 +135,7 @@ body {
   justify-content: space-between;
   gap: 18px;
 }
-.title-type4 .moreview li{
- 
-}
+
 .title-type4 .moreview li .button{
   margin-top: 10px;
   border: 1px solid #000;
@@ -222,9 +220,7 @@ body {
 .font-style-list-body ul{
   gap: 22px;
 }
-.font-style-list-body-list1 div{
-  
-}
+
 .font-style-list-body-list1 ul{
   margin-bottom: 25px;
   width: 300px;
@@ -273,9 +269,7 @@ body {
   gap: 56px;
   margin-left: 96px;
 }
-..color-style{
 
-}
 .color-style-ul{
   margin-top: 40PX;
 }

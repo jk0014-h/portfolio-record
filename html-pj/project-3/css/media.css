@@ -1,0 +1,34 @@
+@media (max-width: 1920px) {
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 {
+        left: 50vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .front{
+        top: -5.406vw;
+        right: -42.344vw;
+    }
+
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-1-fr-1{
+        top: 172px;
+        left: 43vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-1-fr-2{
+        top: 172px;
+        left: 43vw;
+    }
+
+    
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        text-align: left;
+        top: 8.42vw;
+        left: 46vw;
+    }
+}
+@media (min-width: 1920px) {
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .front{
+        right: -30.344vw;
+    }
+}

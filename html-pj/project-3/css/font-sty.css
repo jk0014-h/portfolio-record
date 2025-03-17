@@ -1,5 +1,6 @@
 @charset "utf-8";
-.sec-1 .sec-1-menubar .menu li{
+
+.sec-1 .sec-1-menubar .menu li {
     font-family: "Pretendard", sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -8,32 +9,123 @@
 }
 
 
-.sec-1 .sec-1-img .txt .sec1-content .description .size22{
+.sec-1 .sec-1-img .txt .sec1-content .description .size22 {
     font-size: 22px;
     letter-spacing: -0.44px;
 }
-.sec-1 .sec-1-img .txt .sec1-content .description span{
-    font-family: "Notosans";
-    color: #f00;  
+
+.sec-1 .sec-1-img .txt .sec1-content .description span {
+    font-family: "Noto Sans";
+    font-style: normal;
+    color: #f00;
 }
-.sec-1 .sec-1-img .txt .sec1-content .description .one{
+
+.sec-1 .sec-1-img .txt .sec1-content .description .one {
     font-size: 30px;
     font-weight: 400;
     letter-spacing: -0.6px;
 }
-.sec-1 .sec-1-img .txt .sec1-content .description .two{
+
+.sec-1 .sec-1-img .txt .sec1-content .description .two {
     font-size: 22px;
     font-weight: 350;
     letter-spacing: -0.48;
 }
-.sec-1 .sec-1-img .txt .sec1-content .description .three{
+
+.sec-1 .sec-1-img .txt .sec1-content .description .three {
     font-size: 22px;
     font-weight: 350;
     letter-spacing: -0.48;
 }
-.sec-1 .sec-1-img .txt .sec1-content .description{
+
+.sec-1 .sec-1-img .txt .sec1-content .description {
     font-family: "sandoll-gothicneo1", serif;
     font-size: 26px;
     font-weight: 350;
+    font-style: normal;
+}
+
+.sec-2 .sec-2-1 ul {
+    font-family: 'Noto Sans';
+    font-style: normal;
+}
+
+.sec-2 .sec-2-1 ul #up {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sec-2 .sec-2-1 ul #dwon {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sec-2 .sec-2-1 .anytime {
+    font-family: "Kdam Thmor Pro";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sec-2 .sec-2-1 .scroll p {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sec-2 .sec-2-2 {
+    color: #fff;
+}
+
+.sec-2 .sec-2-2 .section-controll li{
+    font-family: "Kdam Thmor Pro";
+    font-size: 24px;
+    font-style: normal;
+}
+
+.sec-2-2-txt .sec-2-2-1 .text .title {
+    color: #fff;
+    font-family: "Kdam Thmor Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5.6px;
+}
+
+.sec-2-2-txt .sec-2-2-1 .text .title .big {
+    color: #f00;
+    font-size: 120px;
+    font-weight: 400;
+    letter-spacing: 9.6px;
+}
+
+.sec-2-2-txt .sec-2-2-1 .text .sub-1 {
+    color: #fff;
+    font-family: "sandoll-gothicneo1";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 44px;
+}
+.sec-2-2-txt .sec-2-2-1 .text .sub-2{
+    color: #fff;
+    font-family: "sandoll-gothicneo1";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text{
+    
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .title{
+    font-family: "Kdam Thmor Pro";
+    font-size: 112px;
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1{
+    font-family: "sandoll-gothicneo1";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
     font-style: normal;
 }

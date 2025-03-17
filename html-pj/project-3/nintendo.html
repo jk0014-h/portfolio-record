@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="./css/font-sty.css">
     <link rel="stylesheet" href="../../css/reset.min.css">
     <link rel="stylesheet" href="./css/nintendo.css">
-    <script src="./css/font.js"></script>
+    <link rel="stylesheet" href="./css/media.css">
+
     <script src="../../js/jquery-3.7.1.js"></script>
     <title>nintendo</title>
 </head>
 
 <body>
     <!-- 배너 -->
-    <section-1 class="sec-1">
+    <section class="sec-1">
         <!-- 상단 메뉴 -->
         <ul class="sec-1-menubar">
             <!-- 베너 로고 -->
@@ -53,7 +54,12 @@
                     <!-- 설명문 1 -->
                     <li class="description one">
                         <p class="size22">선명한 색감의</p>
-                        <p><span class="one">「Nintendo Switch <span class="one">™</span> <span class="three">(OLED 모델)」</span></span></p>
+                        <p class="one">
+                            <span>「Nintendo Switch
+                                <span class="two">™</span>
+                                <span class="three">(OLED 모델)」</span>
+                            </span>
+                        </p>
                     </li>
                     <!-- 설명문 2 -->
                     <li class="description two">
@@ -69,18 +75,145 @@
                 </ul>
             </li>
         </ul>
-    </section-1>
+    </section>
     <!-- OLED  -->
-    <section-2 class="sec-2">
+    <section class="sec-2">
         <div class="sec-2-1">
-            
+            <img src="./img/sec-2/sec2-1/zelda-bg.svg" alt="" class="line">
+            <ul>
+                <li id="up">언제-어디서든-누구와도,</li>
+                <li id="dwon">OLED 모델이기에 가능한 선명한 색량의 화면으로<br>
+                    게임을 즐길 수 있습니다.</li>
+            </ul>
+            <p class="anytime">Anytime, Anywhere, Anybody</p>
+            <div class="scroll">
+                <img src="./img/sec-2/sec2-1/scroll.svg" alt="">
+                <p>scroll</p>
+            </div>
+        </div>
+        <div class="sec-2-2">
+            <div class="sticky">
+                <div class="item-box">
+                    <ul class="section-controll">
+                        <li>Display</li>
+                        <li>Controller</li>
+                        <li>Others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="scllor">
+                <ul class="sec-2-2-txt">
+                    <li class="sec-2-2-box sec-2-2-1">
+                        <ul>
+                            <li>
+                                <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-fr-2.png" alt="" class="front">
+                            </li>
+                            <li>
+                                <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-bg.png" alt="">
+                            </li>
+                        </ul>
+                        <ul class="text">
+                            <li class="title">Vivid <span class="big">Color</span></li>
+                            <li class="sub-1">화면의 베젤이 슬림해지면서 넓어진<br>
+                                7인치 OLED디스플레이</li>
+                            <li class="sub-2">화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
+                                바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
+                                다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sec-2-2-box sec-2-2-2">
+                        <ul class="front">
+                            <!-- 앞쪽 이미지 -->
+                            <li class="front-one">
+                                <ul>
+                                    <li>
+                                        <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-fr-1.svg" alt="" class="front-2-1-fr-1 ">
+                                    </li >
+                                    <li>
+                                        <img src="./img/sec-2/sec2-2/2-2-2/sec-2-2-fr-1.png" alt=""
+                                            class="front-2-2-fr-1 hidden">
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- 뒤쪽 이미지 -->
+                            <li class="front-two">
+                                <ul>
+                                    <li>
+                                        <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-fr-2.png" alt="" class="front-2-1-fr-2 ">
+                                    </li >
+                                    <li>
+                                        <img src="./img/sec-2/sec2-2/2-2-2/sec-2-2-fr-2.png" alt=""
+                                            class="front-2-2-fr-2 hidden">
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-bg(font).png" alt="" class="back">
+
+                        <div class="button-container">
+                            <button class="switch-btn" onclick="toggleImage(1)"></button>
+                            <button class="switch-btn" onclick="toggleImage(2)"></button>
+                        </div>
+
+                        <!-- 텍스트 부분 -->
+                        <ul class="text">
+                            <li class="text-one ">
+                                <ul class="text-ul">
+                                    <li class="title">Joy-Con</li>
+                                    <li class="sub-1">
+                                        좌우가 한 세트인 컨트롤러 「Joy-Con™(조이콘)」이 들어 있습니다.
+                                        <br>가로 잡기, 세로 잡기 이외에도, 한쪽의 Joy-Con을 다른 플레이어에게
+                                        <br>건네어 “나누어” 잡으면, 언제, 어디서든, 대전이나 협력 플레이를
+                                        <br>즐길 수 있습니다.
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="text-two hidden">
+                                <ul class="text-ul ">
+                                    <li class="title">Pro - Controller</li>
+                                    <li class="sub-1">
+                                        잡기 편한 그립형 디자인 때문에, TV 모드나 테이블 모드에서
+                                        <br>게임을 장시간 쾌적하게 플레이할 수 있는 무선 컨트롤러.
+                                        <br>『젤다의 전설 티어스 오브 더 킹덤 에디션』
+                                        <br>특별 디자인의 Nintendo Switch Pro 컨트롤러입니다.
+                                    </li>
+                                </ul>
+                            </li>
+                            <span></span>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="sec-2-2-box sec-2-2-3">
+                        <ul class="text">
+                            <li>test3</li>
+                            <li>화면의 베젤이 슬림해지면서 넓어진<br>
+                                7잋니 OLED디스플레이</li>
+                            <li>화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
+                                바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
+                                다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
         </div>
     </section>
-    <section-3 class="sec-3">
-
+    <section class="sec-3">
+        <div class="sec-3-1">
+            <p>Edition lineup</p>
+        </div>
     </section>
     <script src="./css/prj2.js"></script>
+    <script src="./css/font-anime.js"></script>
+    <script src="./css/nintendo.js"></script>
 </body>
 
 </html>
-

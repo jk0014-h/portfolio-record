@@ -1,10 +1,9 @@
 @charset "utf-8";
 
-body {
-    min-width: 1580px;
-}
+
 
 .sec-1 {
+    display: block;
     position: relative;
     width: 100%;
     min-width: 1540px;
@@ -18,7 +17,7 @@ body {
 
 /* 상단 메뉴바 */
 .sec-1-menubar {
-    position: relative;
+    position: absolute;
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
@@ -30,6 +29,7 @@ body {
     border-radius: 10px;
     min-width: 1500px;
 }
+
 .sec-1-menubar .menu ul {
     display: flex;
     align-items: center;
@@ -41,6 +41,7 @@ body {
 .menu-bar {
     position: relative;
 }
+
 .menu-bar::after {
     content: "";
     display: block;
@@ -52,14 +53,17 @@ body {
     background-color: red;
     transition: height 0.2s ease-in-out;
 }
+
 /* 기본적으로 active 밑에 빨간보더  */
 .menu-bar:hover::after {
     height: 3px;
 }
+
 /* li 호버시 바텀 보더 */
 .menu-bar.active::after {
     height: 3px;
 }
+
 /* active 이외 호버시 active 보더 사라짐 */
 .menu ul:hover .menu-bar.active::after {
     height: 0;
@@ -70,14 +74,16 @@ body {
     display: flex;
     gap: 50px;
 }
+
 .sec-1 .sec-1-img {
     display: flex;
     align-items: center;
     gap: 5.9375vw;
     position: relative;
     margin-left: 13.1250vw;
-    top: 190px;
+    top: 295px;
 }
+
 .sec-1 .txt .sec1-content {
     gap: 1.3889vw;
     display: flex;
@@ -87,14 +93,274 @@ body {
 
 
 .sec-2-1 {
-    position: absolute; 
+    display: block;
+    position: relative;
     width: 100%;
-    top: 940px;
-    min-width: 1540px;
     height: 100%;
-    max-height: 940px;
-    background: url('../img/sec-2/sec-2bg.svg') no-repeat;
+    min-height: 940px;
+    background: url('../img/sec-2/sec2-1/sec-2bg.svg') no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
+}
+
+.sec-2-1 .line {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sec-2 .sec-2-1 ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    left: 1014px;
+    top: 206px;
+}
+
+.sec-2 .sec-2-1 ul li {
+    position: relative;
+    color: #fff;
+
+}
+
+.sec-2 .sec-2-1 .anytime {
+    position: absolute;
+    color: #E60012;
+    left: 624px;
+    top: 456px;
+}
+
+.sec-2 .sec-2-1 .scroll {
+    position: absolute;
+    left: 50%;
+    top: 678px;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+.sec-2-2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 4516px;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sec-2 .sec-2-2 .section-controll {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.sec-2 .sec-2-2 .section-controll li {
+    padding: 15px 75px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.sec-2 .sec-2-2 .sticky {
+    position: sticky;
+    padding: 160px 0;
+    top: 0;
+    display: block;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.sec-2 .sec-2-2 .item-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    transform: translateX(-50%);
+}
+
+.sec-2-2-box.active {
+    display: flex;
+    opacity: 1;
+}
+
+
+.sec-2 .sec-2-2 .scllor {
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.sec-2 .sec-2-2 .sec-2-2-txt {
+    display: flex;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-box {
+    position: absolute;
+    text-align: right;
+    display: flex;
+    max-width: 1590px;
+    padding: 0;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+    ;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 {
+    width: 1590px;
+    height: 526px;
+    top: 5vw;
+    left: 62vw;
+    margin: 80px 0 0 46px;
+
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .front {
+    position: absolute;
+    top: -5.406vw;
+    right: -30.344vw;
+    transform: rotate(-36deg);
+    z-index: 10;
+    width: 1348px;
+    height: 569px;
+
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    position: absolute;
+    left: 366px;
+    top: 116px;
+    z-index: 10;
+}
+
+
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 {
+    position: relative;
+    width: 1620px;
+    height: 854px;
+    top: 70vw;
+    left: 50vw;
+    margin: 0px auto;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front {
+    position: relative;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-one .front-2-1-fr-1 {
+    position: absolute;
+    width: 910px;
+    height: 855px;
+    top: 2vw;
+    left: -265px;
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-one .front-2-2-fr-1{
+    position: absolute;
+    width: 1100px;
+    height: 1100px;
+    top: -7vw;
+    left: -12vw;
+}
+
+
+
+
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-1-fr-2 {
+    position: absolute;
+    width: 643px;
+    height: 604px;
+    top: 6.9vw;
+    right: -55vw;
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-2-fr-2 {
+    position: absolute;
+    width: 730px;
+    height: 520px;
+    top: 6vw;
+    left: 29vw;
+}
+
+.sec-2 .sec-2-2 .scllor  .sec-2-2-txt .sec-2-2-2 .text {
+    position: absolute;
+    text-align: left;
+    top: 6.22vw;
+    left: 31.8vw;
+}
+.sec-2 .sec-2-2 .scllor  .sec-2-2-txt .sec-2-2-2 .text .text-ul{
+    gap: 90px;
+    display: flex;
+    flex-direction: column
+}
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1{
+    position: relative;
+    left: 4vw;
+}
+.switch-btn {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* 이미지와 텍스트 숨기기 */
+.hidden {
+    display: none;
+}
+
+
+
+/* 공통 스타일 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::after,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+/* 왼쪽 위 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::before {
+    top: -50px;
+    left:-58px;
+    width: 150px;  /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::after {
+    top: -50px;
+    left: -60px;
+    width: 2px;  /* 세로선 */
+    height: 150px;
+}
+/* 오른쪽 아래 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::before {
+    bottom: 0;
+    right: -4.531vw;
+    width: 64px;  /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::after {
+    bottom: 0;
+    right: -4.531vw;
+    width: 2px;  /* 세로선 */
+    height: 64px;
 }

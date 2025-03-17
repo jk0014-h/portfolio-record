@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.7.1.js"></script>
+</head>
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sec-2-2-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 100px; /* 180px → 100px로 줄여보기 */
+    padding-bottom: 200px; /* 마지막 요소가 보이도록 패딩 추가 */
+}
+
+    
+.sec-2-2-box {
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    opacity: 0;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+
+</style>
+<body>
+    <ul class="sec-2-2-txt">
+        <li class="sec-2-2-box sec-2-2-1">
+            <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-fr-2.png" alt="" class="front">
+            <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-bg.png" alt="">
+            <ul class="text">
+                <li class="title">Vivid <span class="big">Color</span></li>
+                <li class="sub-1">화면의 베젤이 슬림해지면서 넓어진<br>
+                    7인치 OLED디스플레이</li>
+                <li class="sub-2">화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
+                    바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
+                    다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
+                </li>
+            </ul>
+        </li>
+        <li class="sec-2-2-box sec-2-2-2">
+            <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-fr.svg" alt="" class="front">
+            <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-bg(font).png" alt="" class="back">
+            <ul class="text">
+                <li>Joy-Con</li>
+                <li>좌우가 한 세트인 컨트롤러 「Joy-Con™(조이콘)」이 들어 있습니다.<br>
+                    가로 잡기, 세로 잡기 이외에도, 한쪽의 Joy-Con을 다른 플레이어에게<br>
+                    건네어 “나누어” 잡으면, 언제, 어디서든, 대전이나 협력 플레이를<br>
+                    즐길 수 있습니다.
+                </li>
+            </ul>
+        </li>
+        <li class="sec-2-2-box sec-2-2-3">
+            <ul class="text">
+                <li>test3</li>
+                <li>화면의 베젤이 슬림해지면서 넓어진<br>
+                    7잋니 OLED디스플레이</li>
+                <li>화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
+                    바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
+                    다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script src="./test.js"></script>
+</body>
+</html>
