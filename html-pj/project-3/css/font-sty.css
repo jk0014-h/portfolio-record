@@ -79,7 +79,7 @@
     color: #fff;
 }
 
-.sec-2 .sec-2-2 .section-controll li{
+.sec-2 .sec-2-2 .section-controll li {
     font-family: "Kdam Thmor Pro";
     font-size: 24px;
     font-style: normal;
@@ -108,24 +108,234 @@
     font-weight: 300;
     line-height: 44px;
 }
-.sec-2-2-txt .sec-2-2-1 .text .sub-2{
+
+.sec-2-2-txt .sec-2-2-1 .text .sub-2 {
     color: #fff;
     font-family: "sandoll-gothicneo1";
     font-size: 20px;
     font-weight: 100;
     line-height: 34px;
 }
-.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text{
-    
-}
-.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .title{
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .title {
     font-family: "Kdam Thmor Pro";
     font-size: 112px;
 }
-.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1{
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .text-two span {
+    font-size: 72px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1 {
     font-family: "sandoll-gothicneo1";
     font-size: 20px;
     font-weight: 100;
     line-height: 34px;
     font-style: normal;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .title-1 {
+    font-family: "noto-sans-cjk-kr";
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .title-2 {
+    font-family: "Kdam Thmor Pro";
+    font-size: 90px;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1 {
+    font-family: "sandoll-gothicneo1";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    font-style: normal;
+}
+
+
+.sec-3 .sec-3-1 p {
+    margin-top: 34px;
+    text-align: center;
+    color: #000;
+    font-family: "Kdam Thmor Pro";
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 15.84px;
+}
+
+.sec-3 .sec-3-1 .item-list-container .item-box .text {
+    font-family: "noto-sans-cjk-kr";
+    font-style: normal;
+    padding-bottom: 24PX;
+}
+
+.sec-3 .sec-3-1 .item-list-container .item-box .text .title-1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    color: #000;
+}
+
+.sec-3 .sec-3-1 .item-list-container .item-box .text .title-2 {
+    color: #797979;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+}
+
+
+.sec-4 .text .text-list .title{
+    font-family: "noto-sans-cjk-kr";
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.sec-4 .text .text-list .sub-menu{
+    font-family: "sandoll-gothicneo1";
+    font-weight: 300;
+    font-size: 22px;
+    color: #666;
+}
+
+.sec-5 .last-list{
+    color: #333;
+}
+.sec-5 .last-list .suport{
+    font-family: "noto-sans-cjk-kr";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 200;
+}
+.sec-5 .last-list .suport span{
+    font-family: "Kdam Thmor Pro";
+    font-style: normal;
+    font-size: 36px;
+}
+.sec-5 .last-list .suport .sub{
+    font-size: 16px;
+}
+.sec-5 .last-list .rule{
+    font-family: "noto-sans-cjk-kr";
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sec-5 .last-list .rule .grid-3{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 공통 스타일 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::after,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+/* 왼쪽 위 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::before {
+    top: -50px;
+    left: -58px;
+    width: 150px;
+    /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .sub-1::after {
+    top: -50px;
+    left: -60px;
+    width: 2px;
+    /* 세로선 */
+    height: 150px;
+}
+
+/* 오른쪽 아래 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::before {
+    bottom: 0;
+    right: -4.531vw;
+    width: 64px;
+    /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text span::after {
+    bottom: 0;
+    right: -4.531vw;
+    width: 2px;
+    /* 세로선 */
+    height: 64px;
+}
+
+
+
+/* 공통 스타일 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::after,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text span::before,
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text span::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+/* 왼쪽 위 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::before {
+    top: 10vw;
+    right: -3.021vw;
+    width: 150px;
+    /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::after {
+    top: 10vw;
+    right: -3.021vw;
+    width: 2px;
+    /* 세로선 */
+    height: 150px;
+}
+
+/* 오른쪽 아래 L자 */
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text span::before {
+    bottom: 0.5vw;
+    left: 1.469vw;
+    width: 64px;
+    /* 가로선 */
+    height: 2px;
+}
+
+.sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text span::after {
+    bottom: 0.5vw;
+    left: 1.469vw;
+    width: 2px;
+    /* 세로선 */
+    height: 64px;
 }

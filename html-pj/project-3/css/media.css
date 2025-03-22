@@ -6,29 +6,67 @@
         top: -5.406vw;
         right: -42.344vw;
     }
-
-    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-1-fr-1{
-        top: 172px;
-        left: 43vw;
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-2-1-fr-1{
+        
     }
     .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-1-fr-2{
-        top: 172px;
-        left: 43vw;
+        top: 141px;
+        left: 27vw;
     }
-
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .front .front-two .front-2-2-fr-2{
+        top: 172px;
+        left: 27vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .text{
+        left: 366px;
+        top: 116px;
+    }
     
-    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        gap: 90px;
-        text-align: left;
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2{
+        left: 56vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-2 .text .text-st{
         top: 8.42vw;
         left: 46vw;
     }
+
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text{
+        left: -28vw;
+    }
+
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .fr-3{
+        bottom: 16.64vw;
+        left: 44.4vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::before {
+        top: 12vw;
+        right: -3.021vw;
+    }
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text .sub-1::after {
+        top: 12vw;
+        right: -3.021vw;
+    }
+    
+    
+    /* 오른쪽 아래 L자 */
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text  span::before {
+        bottom: 0.5vw;
+        left: 6.469vw;
+    }
+    
+    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-3 .text  span::after {
+        bottom: 0.5vw;
+        left: 6.469vw;
+    }
+
+
+
+
+
+
 }
 @media (min-width: 1920px) {
-    .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .front{
+    /* .sec-2 .sec-2-2 .scllor .sec-2-2-txt .sec-2-2-1 .front{
         right: -30.344vw;
-    }
+    } */
 }
