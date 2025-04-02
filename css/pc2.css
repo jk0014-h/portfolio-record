@@ -433,7 +433,7 @@
 }
 .section-3 {
   background: #ffffff;
-  height: 90vw;
+  height: 144vw;
   /* 나머지 완성되면 144vw로 복구 */
   width: 100vw;
   position: relative;
@@ -713,7 +713,7 @@
 }
 /* 큰박스에 들어갈 이미지 2 */
 .box-three .box-three{
-  background: url(../img/test.png);
+  background: url(../img/nintendo.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(2px);
