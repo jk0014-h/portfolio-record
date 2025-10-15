@@ -1,78 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../js/jquery-3.7.1.js"></script>
-</head>
+<meta charset="UTF-8" />
 <style>
-    body {
-        background-color: #000;
-        color: #fff;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .sec-2-2-txt {
+  .side-left {
     display: flex;
-    flex-direction: column;
-    gap: 100px; /* 180px → 100px로 줄여보기 */
-    padding-bottom: 200px; /* 마지막 요소가 보이도록 패딩 추가 */
-}
+    gap: 10px;
+    position: relative;
+  }
 
-    
-.sec-2-2-box {
-    min-height: 100vh;
+  .side-bg-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    list-style: none;
+    cursor: pointer;
+  }
+
+  .side-bg-icon img {
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+
+  .side-bg-icon img:hover {
+    transform: scale(1.1);
+  }
+
+  .side-box-popup {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+
+  .side-pase {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 200px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     opacity: 0;
-    transition: opacity 1s ease-out, transform 1s ease-out;
-}
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+  }
 
+  .side-pase.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
 
+  .side-pase1 { background: royalblue; }
+  .side-pase2 { background: tomato; }
 </style>
+</head>
 <body>
-    <ul class="sec-2-2-txt">
-        <li class="sec-2-2-box sec-2-2-1">
-            <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-fr-2.png" alt="" class="front">
-            <img src="./img/sec-2/sec2-2/2-2-1/sec-2-1-bg.png" alt="">
-            <ul class="text">
-                <li class="title">Vivid <span class="big">Color</span></li>
-                <li class="sub-1">화면의 베젤이 슬림해지면서 넓어진<br>
-                    7인치 OLED디스플레이</li>
-                <li class="sub-2">화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
-                    바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
-                    다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
-                </li>
-            </ul>
-        </li>
-        <li class="sec-2-2-box sec-2-2-2">
-            <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-fr.svg" alt="" class="front">
-            <img src="./img/sec-2/sec2-2/2-2-2/sec-2-1-bg(font).png" alt="" class="back">
-            <ul class="text">
-                <li>Joy-Con</li>
-                <li>좌우가 한 세트인 컨트롤러 「Joy-Con™(조이콘)」이 들어 있습니다.<br>
-                    가로 잡기, 세로 잡기 이외에도, 한쪽의 Joy-Con을 다른 플레이어에게<br>
-                    건네어 “나누어” 잡으면, 언제, 어디서든, 대전이나 협력 플레이를<br>
-                    즐길 수 있습니다.
-                </li>
-            </ul>
-        </li>
-        <li class="sec-2-2-box sec-2-2-3">
-            <ul class="text">
-                <li>test3</li>
-                <li>화면의 베젤이 슬림해지면서 넓어진<br>
-                    7잋니 OLED디스플레이</li>
-                <li>화면의 베젤이 슬림해 지면서 7인치로 넓어진 OLED 디스플레이,<br>
-                    바람에 나부끼는 풀숲, 몰려오는 적, 최고 속도로 달려나가는 카트 등,<br>
-                    다양한 게임 속 세계를 선명한 색감으로 그려냅니다.
-                </li>
-            </ul>
-        </li>
-    </ul>
 
-    <script src="./test.js"></script>
+<div class="side-left">
+  <div class="side-icon-box">
+    <div><span class="side-bg-icon" id="side-1"><img src="buki.png" alt=""></span></div>
+    <div><span class="side-bg-icon" id="side-2"><img src="buki.png" alt=""></span></div>
+  </div>
+
+  <div class="side-box-popup">
+    <div class="side-pase side-pase1">📘 첫 번째 페이지</div>
+    <div class="side-pase side-pase2">📙 두 번째 페이지</div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const icons = document.querySelectorAll(".side-bg-icon");
+  const popups = document.querySelectorAll(".side-pase");
+
+  icons.forEach((icon, index) => {
+    icon.addEventListener("click", () => {
+      const targetPopup = document.querySelector(`.side-pase${index + 1}`);
+
+      if (targetPopup.classList.contains("active")) {
+        targetPopup.classList.remove("active"); // 👈 다시 클릭 시 닫기
+      } else {
+        popups.forEach(p => p.classList.remove("active"));
+        targetPopup.classList.add("active");
+      }
+    });
+  });
+});
+</script>
+
 </body>
 </html>
