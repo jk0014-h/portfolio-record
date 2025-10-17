@@ -1,81 +1,5 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8" />
-<style>
-  .side-left {
-    display: flex;
-    gap: 10px;
-    position: relative;
-  }
+console.log(('test.js.load'));
 
-  .side-bg-icon {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  .side-bg-icon img {
-    width: 100%;
-    transition: transform 0.3s ease;
-  }
-
-  .side-bg-icon img:hover {
-    transform: scale(1.1);
-  }
-
-  .side-box-popup {
-    position: relative;
-    width: 400px;
-    height: 200px;
-  }
-
-  .side-pase {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 200px;
-    background: blue;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.4s ease;
-    pointer-events: none;
-  }
-
-  .side-pase.active {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: all;
-  }
-
-  .side-pase1 { background: royalblue; }
-  .side-pase2 { background: tomato; }
-</style>
-</head>
-<body>
-
-<div class="side-left">
-  <div class="side-icon-box">
-    <div><span class="side-bg-icon" id="side-1"><img src="buki.png" alt=""></span></div>
-    <div><span class="side-bg-icon" id="side-2"><img src="buki.png" alt=""></span></div>
-  </div>
-
-  <div class="side-box-popup">
-    <div class="side-pase side-pase1">📘 첫 번째 페이지</div>
-    <div class="side-pase side-pase2">📙 두 번째 페이지</div>
-  </div>
-</div>
-
-<script>
 document.addEventListener("DOMContentLoaded", () => {
   const icons = document.querySelectorAll(".side-bg-icon");
   const popups = document.querySelectorAll(".side-pase");
@@ -83,17 +7,38 @@ document.addEventListener("DOMContentLoaded", () => {
   icons.forEach((icon, index) => {
     icon.addEventListener("click", () => {
       const targetPopup = document.querySelector(`.side-pase${index + 1}`);
-
+      const sidePopupbox = document.querySelector(`.side-box-popup`);
+      
       if (targetPopup.classList.contains("active")) {
-        targetPopup.classList.remove("active"); // 👈 다시 클릭 시 닫기
+        targetPopup.classList.remove("active");
       } else {
         popups.forEach(p => p.classList.remove("active"));
         targetPopup.classList.add("active");
       }
+      
+      if (sidePopupbox.classList.contains("active")) {
+        sidePopupbox.classList.remove("active");
+      } else {
+        popups.forEach(p => p.classList.remove("active"));
+        sidePopupbox.classList.add("active");
+      }
+    });
+  });
+
+
+  const titles = document.querySelectorAll(".side-menu-title");
+
+  titles.forEach(title => {
+    title.addEventListener("click", () => {
+      const parent = title.parentElement;
+
+      if (parent.classList.contains("active")) {
+        parent.classList.remove("active");
+      } else {
+
+        document.querySelectorAll(".side-menu-1").forEach(item => item.classList.remove("active"));
+        parent.classList.add("active");
+      }
     });
   });
 });
-</script>
-
-</body>
-</html>
