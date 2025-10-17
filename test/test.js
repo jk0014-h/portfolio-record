@@ -14,3 +14,23 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(box);
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const titles = document.querySelectorAll(".menu-title");
+
+  titles.forEach(title => {
+    title.addEventListener("click", () => {
+      const parent = title.parentElement;
+
+      // 이미 열려 있으면 닫기
+      if (parent.classList.contains("active")) {
+        parent.classList.remove("active");
+      } else {
+        // 다른 메뉴는 닫기
+        document.querySelectorAll(".menu-item").forEach(item => item.classList.remove("active"));
+        parent.classList.add("active");
+      }
+    });
+  });
+});
