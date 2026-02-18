@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.frame-25,
+.frame-25 * {
+  box-sizing: border-box;
+}
+.frame-25 {
+  background: #ffffff;
+  padding: 51px 28px 51px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: center;
+  height: 1048px;
+  position: relative;
+  overflow: hidden;
+}
+.graph {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.graph-a {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 90px;
+  max-width: 516px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.25);
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-end;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-13 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.div {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._65 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.rate2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.graph-name {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-3 {
+  background: #98f098;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-32 {
+  background: #ffef7b;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-33 {
+  background: #7ba0ff;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+.graph-shape {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 11px;
+  position: static;
+}
+.rectangle-14 {
+  background: #d9d9d9;
+  border-radius: 37px;
+  width: 496px;
+  height: 11px;
+  position: absolute;
+  left: 0px;
+  top: 63px;
+}
+.rectangle-17 {
+  background: #7ba0ff;
+  border-radius: 37px;
+  width: 194.46px;
+  height: 11px;
+  position: absolute;
+  left: 285.54px;
+  top: 63px;
+}
+.rectangle-16 {
+  background: #fff07b;
+  border-radius: 37px;
+  width: 194.46px;
+  height: 11px;
+  position: absolute;
+  left: 222.77px;
+  top: 63px;
+}
+.rectangle-15 {
+  background: #98f098;
+  border-radius: 37px;
+  width: 248.62px;
+  height: 11px;
+  position: absolute;
+  left: 0px;
+  top: 63px;
+}
+.graph-b {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 90px;
+  max-width: 516px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.25);
+}
+.graph-c {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 90px;
+  max-width: 516px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.25);
+}
+.icon-shape {
+  background: #f47575;
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  position: relative;
+}
+.select-panel {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.select-panel-l {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 0px 31px 0px 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+  min-width: 270px;
+  max-width: 380px;
+  max-height: 823px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.38);
+}
+.panel-r-title {
+  padding: 11px 2px 11px 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 49px;
+  position: relative;
+  overflow-x: auto;
+}
+.title-1 {
+  background: #ffffff;
+  border-radius: 65px;
+  padding: 3px 33px 3px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 111px;
+  height: 27px;
+  position: relative;
+  box-shadow: 0px 2px 5.7px 27px rgba(0, 0, 0, 0.29);
+}
+.rack {
+  color: #000000;
+  text-align: left;
+  font-family: "NanumBarunGothicOtf-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.title-2 {
+  background: #ffffff;
+  border-radius: 65px;
+  padding: 3px 33px 3px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 111px;
+  height: 27px;
+  position: relative;
+}
+.rack2 {
+  color: #000000;
+  text-align: left;
+  font-family: "NanumBarunGothicOtf-Light", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.title-3 {
+  background: #ffffff;
+  border-radius: 65px;
+  padding: 3px 33px 3px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 111px;
+  height: 27px;
+  position: relative;
+}
+.title-4 {
+  background: #ffffff;
+  border-radius: 65px;
+  padding: 3px 33px 3px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 111px;
+  height: 27px;
+  position: relative;
+}
+.panel-r-list {
+  padding: 12px 1px 12px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 714px;
+  position: relative;
+}
+.list-a-1 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 19px 16px 19px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.autolay-out {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 57px;
+  position: relative;
+}
+.list-title {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.area-001 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.path {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 44px;
+  position: relative;
+}
+.start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-4 {
+  background: #000000;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 5px;
+  height: 5px;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.right {
+  flex-shrink: 0;
+  width: 67.61px;
+  height: 64.49px;
+  position: static;
+}
+.shpae {
+  background: #d9d9d9;
+  width: 51.14px;
+  height: 49.83px;
+  position: absolute;
+  left: 224.19px;
+  top: 9.86px;
+  transform-origin: 0 0;
+  transform: rotate(-0.243deg) scale(1, 1);
+}
+.div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -74.33px);
+  top: 59.93px;
+  width: 67.61px;
+  height: 14.46px;
+  transform-origin: 0 0;
+  transform: rotate(-0.243deg) scale(1, 1);
+}
+.list-a-2 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 19px 16px 19px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.list-a-3 {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 19px 16px 19px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.select-panel-m {
+  background: #d9d9d9;
+  border-radius: 22px;
+  align-self: stretch;
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+.select-panel-r {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 37px 34px 37px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  min-width: 270px;
+  max-width: 350px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.38);
+}
+.panel-r-list-a {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 19px 16px 19px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 53px;
+  position: relative;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.icon4 {
+  flex-shrink: 0;
+  width: 11px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.title2 {
+  flex-shrink: 0;
+  width: 57px;
+  height: 15px;
+  position: static;
+}
+.area-0012 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+}
+.panel-r-list-b {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 19px 16px 19px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 53px;
+  position: relative;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.icon5 {
+  flex-shrink: 0;
+  width: 11px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+
+
+
+</style>
+<body>
+  <div class="frame-25">
+  <div class="graph">
+    <div class="graph-a">
+      <div class="contents">
+        <div class="title">
+          <div class="name">
+            <div class="rectangle-13"></div>
+            <div class="div">모니터링</div>
+          </div>
+          <div class="rate">
+            <div class="_65">65</div>
+            <div class="rate2">rate</div>
+          </div>
+        </div>
+        <div class="graph-name">
+          <div class="frame-17">
+            <div class="ellipse-3"></div>
+            <div class="div">이거요</div>
+          </div>
+          <div class="frame-16">
+            <div class="ellipse-32"></div>
+            <div class="div">저겅쇼</div>
+          </div>
+          <div class="frame-15">
+            <div class="ellipse-33"></div>
+            <div class="div">아니요</div>
+          </div>
+        </div>
+        <div class="graph-shape">
+          <div class="rectangle-14"></div>
+          <div class="rectangle-17"></div>
+          <div class="rectangle-16"></div>
+          <div class="rectangle-15"></div>
+        </div>
+      </div>
+    </div>
+    <div class="graph-b">
+      <div class="contents">
+        <div class="title">
+          <div class="name">
+            <div class="rectangle-13"></div>
+            <div class="div">모니터링</div>
+          </div>
+          <div class="rate">
+            <div class="_65">65</div>
+            <div class="rate2">rate</div>
+          </div>
+        </div>
+        <div class="graph-name">
+          <div class="frame-17">
+            <div class="ellipse-3"></div>
+            <div class="div">이거요</div>
+          </div>
+          <div class="frame-16">
+            <div class="ellipse-32"></div>
+            <div class="div">저겅쇼</div>
+          </div>
+          <div class="frame-15">
+            <div class="ellipse-33"></div>
+            <div class="div">아니요</div>
+          </div>
+        </div>
+        <div class="graph-shape">
+          <div class="rectangle-14"></div>
+          <div class="rectangle-17"></div>
+          <div class="rectangle-16"></div>
+          <div class="rectangle-15"></div>
+        </div>
+      </div>
+    </div>
+    <div class="graph-c">
+      <div class="contents">
+        <div class="title">
+          <div class="name">
+            <div class="rectangle-13"></div>
+            <div class="div">모니터링</div>
+          </div>
+          <div class="rate">
+            <div class="_65">65</div>
+            <div class="rate2">rate</div>
+          </div>
+        </div>
+        <div class="graph-name">
+          <div class="frame-17">
+            <div class="ellipse-3"></div>
+            <div class="div">이거요</div>
+          </div>
+          <div class="frame-16">
+            <div class="ellipse-32"></div>
+            <div class="div">저겅쇼</div>
+          </div>
+          <div class="frame-15">
+            <div class="ellipse-33"></div>
+            <div class="div">아니요</div>
+          </div>
+        </div>
+        <div class="graph-shape">
+          <div class="rectangle-14"></div>
+          <div class="rectangle-17"></div>
+          <div class="rectangle-16"></div>
+          <div class="rectangle-15"></div>
+        </div>
+      </div>
+    </div>
+    <div class="icon-shape"></div>
+  </div>
+  <div class="select-panel">
+    <div class="select-panel-l">
+      <div class="panel-r-title">
+        <div class="title-1">
+          <div class="rack">RACK</div>
+        </div>
+        <div class="title-2">
+          <div class="rack2">RACK</div>
+        </div>
+        <div class="title-3">
+          <div class="rack2">RACK</div>
+        </div>
+        <div class="title-4">
+          <div class="rack2">RACK</div>
+        </div>
+      </div>
+      <div class="panel-r-list">
+        <div class="list-a-1">
+          <div class="autolay-out">
+            <div class="left">
+              <div class="list-title">
+                <div class="area-001">AREA_001</div>
+              </div>
+              <div class="path">
+                <div class="start">
+                  <div class="ellipse-4"></div>
+                  <div class="div">저긴가</div>
+                </div>
+                <img class="icon" src="icon0.svg" />
+                <div class="end">
+                  <div class="ellipse-4"></div>
+                  <div class="div">아닌가</div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="shpae"></div>
+              <div class="div2">
+                모델 이미지
+                <br />
+                더미
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-a-2">
+          <div class="autolay-out">
+            <div class="left">
+              <div class="list-title">
+                <div class="area-001">AREA_001</div>
+              </div>
+              <div class="path">
+                <div class="start">
+                  <div class="ellipse-4"></div>
+                  <div class="div">저긴가</div>
+                </div>
+                <img class="icon2" src="icon1.svg" />
+                <div class="end">
+                  <div class="ellipse-4"></div>
+                  <div class="div">아닌가</div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="shpae"></div>
+              <div class="div2">
+                모델 이미지
+                <br />
+                더미
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-a-3">
+          <div class="autolay-out">
+            <div class="left">
+              <div class="list-title">
+                <div class="area-001">AREA_001</div>
+              </div>
+              <div class="path">
+                <div class="start">
+                  <div class="ellipse-4"></div>
+                  <div class="div">저긴가</div>
+                </div>
+                <img class="icon3" src="icon2.svg" />
+                <div class="end">
+                  <div class="ellipse-4"></div>
+                  <div class="div">아닌가</div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="shpae"></div>
+              <div class="div2">
+                모델 이미지
+                <br />
+                더미
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="select-panel-m"></div>
+    <div class="select-panel-r">
+      <div class="panel-r-list-a">
+        <img class="icon4" src="icon3.svg" />
+        <div class="title2">
+          <div class="area-0012">AREA_001</div>
+        </div>
+      </div>
+      <div class="panel-r-list-b">
+        <img class="icon5" src="icon4.svg" />
+        <div class="title2">
+          <div class="area-0012">AREA_001</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
