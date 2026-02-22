@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.ghape,
+.ghape * {
+  box-sizing: border-box;
+}
+.ghape {
+  background: linear-gradient(
+    90deg,
+    rgba(108, 22, 173, 1) 0%,
+    rgba(167, 81, 242, 1) 100%
+  );
+  border-radius: 12px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+  max-width: 516px;
+  position: relative;
+  box-shadow: 0px 3px 8.8px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.contents {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  width: 312px;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-13 {
+  background: #d392ff;
+  flex-shrink: 0;
+  width: 2px;
+  height: 12px;
+  position: relative;
+}
+.div {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.graph-shape {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.total {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+._500 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-44 {
+  background: rgba(207, 207, 207, 0.5);
+  border-radius: 44px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 50px;
+  position: relative;
+  box-shadow: 0px 2px 12.7px 0px rgba(0, 0, 0, 0.26);
+}
+.title2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._63 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+._300 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 6px;
+  font-weight: 400;
+  position: relative;
+  width: 12px;
+  height: 8px;
+}
+
+
+
+</style>
+<body>
+ <div class="ghape">
+  <div class="contents">
+    <div class="title">
+      <div class="name">
+        <div class="rectangle-13"></div>
+        <div class="div">모니터링</div>
+      </div>
+    </div>
+    <div class="graph-shape">
+      <div class="rate">
+        <div class="total">Total :</div>
+        <div class="_500">500</div>
+      </div>
+      <div class="frame-46">
+        <div class="content">
+          <div class="frame-44">
+            <div class="title2">Full</div>
+          </div>
+          <div class="frame-45">
+            <div class="_63">63%</div>
+            <div class="_300">300</div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="frame-44">
+            <div class="title2">Empty</div>
+          </div>
+          <div class="frame-45">
+            <div class="_63">63%</div>
+            <div class="_300">300</div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="frame-44">
+            <div class="title2">Rate</div>
+          </div>
+          <div class="frame-45">
+            <div class="_63">63%</div>
+            <div class="_300">300</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
