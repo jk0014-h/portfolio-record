@@ -1,4 +1,4 @@
-console.log("JavaScript 파일이 연결되었습니다!");
+//console.log("JavaScript 파일이 연결되었습니다!");
 
 // sliding menu
 $('#menu_open').on('click', () => {
