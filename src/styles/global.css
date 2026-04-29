@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import './custom.css';
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  /* ==========================================================
+     [SENTINEL INSIGHT] 전역 테마 및 색상 변수 설정 가이드
+     - 내부망에서 전체적인 색감을 바꾸고 싶을 때 이 섹션을 수정하세요.
+     - HSL 형식을 사용하여 가독성과 조합이 용이합니다.
+     ========================================================== */
+  
+  --background: 230 25% 6%;      /* 대시보드 메인 배경색 (짙은 남색 계열) */
+  --foreground: 210 40% 98%;     /* 기본 텍스트 색상 (깨끗한 화이트) */
+  --card: 230 25% 10%;           /* 카드/위젯 배경색 */
+  --card-foreground: 210 40% 98%;
+  --popover: 230 25% 8%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 210 100% 50%;       /* 메인 포인트 색상 (선명한 블루) */
+  --primary-foreground: 210 40% 98%;
+  --secondary: 230 25% 15%;      /* 보조 배경색 */
+  --secondary-foreground: 210 40% 98%;
+  --muted: 230 25% 15%;          /* 비활성/비강조 요소 색상 */
+  --muted-foreground: 215 20% 65%;
+  --accent: 210 100% 50%;        /* 강조 포인트 색상 */
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84% 60%;      /* 경고/에러 색상 (레드) */
+  --destructive-foreground: 210 40% 98%;
+  --border: 230 25% 15%;         /* 요소들의 경계선 색상 */
+  --input: 230 25% 15%;
+  --ring: 210 100% 50%;          /* 포커스 링 색상 */
+  --radius: 0.75rem;             /* 전체적인 모서리 둥글기 값 */
+
+  --text: #e2e8f0;               /* 일반 본문 텍스트 색상 */
+  --text-h: #ffffff;             /* 헤드라인/타이틀 텍스트 색상 */
+  --bg: #090a0f;                 /* 최하단 배경 바탕색 */
+  
+  /* 글래스모피즘(유리 효과) 투명도 설정 */
+  --glass-bg: rgba(255, 255, 255, 0.03);    /* 유리의 투명한 배경 (3%) */
+  --glass-border: rgba(255, 255, 255, 0.08); /* 유리의 얇은 경계선 (8%) */
+
+  --sans: 'Inter', system-ui, sans-serif;
+  
+  font: 14px/1.5 var(--sans);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================
+   글래스모피즘(Glassmorphism) 유틸리티
+   - 레이어의 투명도와 블러(뒷배경 흐림)를 조절할 때 사용합니다.
+   ========================================================== */
+
+/* 일반형 유리 효과 (사이드바, 위젯 등) */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px); /* 뒷배경 흐림 강도 (숫자가 클수록 더 흐려짐) */
+  border: 1px solid var(--glass-border);
+}
+
+/* 짙은 유리 효과 (플로팅 툴바, 활성 버튼 등) */
+.glass-dark {
+  background: rgba(0, 0, 0, 0.4); /* 블랙 기반 투명도 (40%) */
+  backdrop-filter: blur(20px);   /* 더 강한 흐림 효과 */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ==========================================================
+   애니메이션 및 특수 효과
+   ========================================================== */
+
+/* 하이테크 발광(Glow) 효과 애니메이션 */
+@keyframes glow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 5px currentColor); }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
