@@ -1,0 +1,8 @@
+/* 테스트용 일반 CSS */
+.text-medium {
+    font-weight: 100;
+}
+
+.line-height-1 {
+    line-height: 0.7rem;
+}
